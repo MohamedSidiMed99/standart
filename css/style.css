@@ -1,0 +1,571 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header{
+    width: 100%;
+    height: 116px;
+    background: #FFFFFF;
+    position: fixed;
+    box-shadow: rgba(160, 158, 158, 0.4) 0px 20px 50px;
+    z-index: 10;
+}
+.header .icon{
+    display: none;
+}
+.header-content{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    height: 116px;
+
+}
+.header-content .nav{
+    flex: 2;
+    display: flex;
+    flex: 2;
+    height: 116px;
+}
+.header-content .logo{
+    height: 116px;
+    display: flex;
+    align-items: center;
+}
+.header-content .nav{
+    width: 100%;
+} 
+.header-content nav {
+    flex: 3;
+    height: 116px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.header-content nav ul li{
+     display: inline-block;
+     margin: 5px 10px;
+
+}
+.header-content nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    
+}
+
+.add_tel{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+.add_tel .row2 a{
+   color: #319F01;
+   font-size: 14px;
+}
+/*-------------------------banner--------------------*/
+.banner{
+    position: relative;
+    height: 565px;
+    width: 100%;
+    top: 116px;
+}
+.banner img{
+   width: 100%;
+   height: 100%;
+}
+.krap{
+
+    position: absolute;
+    top: 25%;
+    left: 53%;
+    padding-left: 20px;
+    width: 90%;
+    transform: translate(-50%);
+    justify-content: center;
+}
+.krap h1{
+    font-size:  72px;
+}
+.krap p{
+    font-size:  32px;
+}
+.krap button{
+    margin-top: 30px;
+    width: 300px;
+    background: #319F01;
+    Gap:1em;
+    border-radius: 3px;
+    font-size: 20px;
+    height: 45px;
+    color: #FFFFFF;
+    padding: 18px, 32px, 18px, 32px;
+    Font-style: Bold;
+    Line-height: 27px;
+    Line-height: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+/*---------------------system---------------------*/
+.system{
+    margin: 116px auto 0;
+    width: 75%;
+
+    padding-top: 30px;
+}
+.system h1{
+    text-align: center;
+    margin-top: 30px;
+}
+.system .adventages{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:30px 10px;
+}
+.system .adventages .adv-item{
+    display: flex;
+    flex-basis: 44%;
+ }
+ .system .adventages .adv-item .icons .icon{
+   height: 50px;
+   width: 50px;
+   background: red;
+   border-radius: 15px; 
+   margin:5px 20px;
+}
+.system .adventages .adv-item h4{
+    font-size: 24px;
+}
+.system .adventages .adv-item p{
+    font-size: 18px;
+}
+
+/*------------------allways available----------------*/
+.available{
+    margin-top: 70px;
+
+    width: 100%;
+    background: #F2EFED;
+    padding-top: 30px;
+}
+.available h1{
+    text-align: center;
+}
+.available .avgs {
+    width: 90%;
+    margin:50px auto 0;
+    padding-bottom: 40px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     gap: 15px;
+ }
+ .available .avgs .avg-item{
+     flex-basis: 20%;
+     min-width: 200px;
+     background-color: #fff;
+     padding-bottom: 10px;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+ }
+ .available .avgs .avg-item .img{
+    width: 100%;
+    height: 150px;
+ }
+ .available .avgs .avg-item img{
+     width: 100%;
+     height: 100%;
+ }
+ .available .avgs .avg-item p{
+    margin: 5px 10px;
+ }
+ .available .avgs .avg-item .price {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 10px;
+ }
+ .available .avgs .avg-item .price .number span{
+   padding:0 7px;
+   font-size: 10px;
+   border: solid 1px #000;
+ }
+ .available .avgs .avg-item .avg-btn{
+
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+ }
+ .available .avgs .avg-item .avg-btn button{
+
+    padding: 2px 10px;
+    background: #fff;
+    cursor: pointer;
+ }
+/*-------------------------why-we---------------------*/
+
+.why-we{
+    margin: auto ;
+    width: 75%;
+    padding-top: 30px;
+}
+
+.why-we h1{
+    text-align: center;
+    margin-top: 30px;
+}
+.why-we .why{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:30px 20px;
+}
+.why-we .why .why-item{
+  
+    flex-basis: 20%;
+    min-width: 250px;
+ }
+ .why-we .why .why-item .icons{
+
+ }
+ .why-we .why .why-item .icons .icon{
+   height: 50px;
+   width: 50px;
+   background: red;
+   border-radius: 15px; 
+   margin:5px auto;
+}
+.why-we .why .why-item h4{
+    font-size: 18px;
+    text-align: center;
+}
+.why-we .why .why-item p{
+    font-size: 14px;
+    text-align: center;
+}
+/*------------------------production-------------------*/
+.production{
+    background-image: url("../img/back-video.jfif");
+    background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+    padding: 50px 0;
+    width: 100%;
+}
+.production h1{
+    text-align: center;
+}
+.production .video{
+
+     width: 75%;
+     margin:50px auto;
+     height: 700px;
+     background-image: url("../img/video.jfif");
+     background-position: center;
+     background-size: cover;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.production .video .fa-solid{
+    font-size: 90px;
+    color: #FFFFFF;
+}
+/*------------------------leave request-------------------*/
+
+.request{
+    width: 100%;
+
+    background-image: url("../img/4.jfif");
+    background-position: center;
+    background-size: cover;
+    padding: 50px 0;
+    display: flex;
+    justify-content: end;
+}
+
+.request .content{
+    width: 452px;
+    background: #fff;
+    text-align: center;
+    margin-right: 180px;
+    padding-bottom: 40px;
+}
+.request .content h1{
+    margin: 30px 0 15px;
+  
+}
+.request .content p{
+    margin: 0 0 30px;
+}
+.request .content .tel{
+    border: solid 2px rgb(204, 198, 198);
+    width: 70%;
+    margin:10px auto;
+    padding: 15px 0;
+    border-radius: 3px;
+}
+.request .content .email{
+    border: solid 2px rgb(204, 198, 198);
+    width: 70%;
+    margin:10px auto;
+    padding: 15px 0;
+    border-radius: 3px;
+}
+.request .content .fa-solid{
+    color: rgb(204, 198, 198);
+}
+.request .content .fa-regular{
+   color: rgb(204, 198, 198);
+}
+.request .content input{
+    width: 80%;
+    border: none;
+    font-weight: 400;
+    color: rgb(204, 198, 198);
+    outline: none;
+
+}
+.request .content .email input,.request .content .tel input{
+    height: 30px;
+}
+.request .content .btn{
+   width: 71%;
+   border: none;
+   background: #319F01;
+   padding: 10px 0;
+   color: #FFFFFF;
+   font-size:  20px;
+   font-weight: bold;
+   margin: 20px;
+   cursor: pointer;
+   border-radius: 5px;
+}
+.request .content .check{
+   font-size: 11px;
+   text-align: left;
+}
+.request .content .check input{
+  width: 30px;
+  margin-left: 56px;
+}
+/*-----------------------partners-company-------------------------*/
+.partners-company{
+    width: 100%;
+    margin: 50px 0;
+
+}
+.partners-company h1{
+    text-align: center;
+}
+.partners-company .company{
+    width: 70%;
+    margin:50px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+}
+.partners-company .company .c-1{
+    flex-basis: 30%;
+    min-width: 300px;
+    height: 150px;
+}
+.partners-company .company img{
+   width: 100%;
+   height: 100%;
+}
+/*-----------------------client----------------------*/
+.client{
+    width: 100%;
+    padding: 50px 0;
+    background-image: url("../img/back-person.jfif");
+    background-position: center;
+    background-size: cover;
+}
+.client h1{
+    text-align: center;
+}
+.client .content{
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.client .content .client-item{
+    flex-basis: 26%;
+    text-align: center;
+    background: #FFFFFF;
+    padding: 20px 20px;
+    border: #CECECE solid 1px;
+    border-radius: 10px;
+}
+.client .content .client-item img{
+    width: 134px;
+    height: 134px;
+}
+.client .content .client-item h4{
+    margin: 20px 0;
+    font-size: 24px;
+}
+.client .content .client-item p{
+    text-align: left;
+    font-size: 14px;
+}
+/*--------------------------Map----------------------*/
+.on-map{
+    width: 100%;
+    padding:50px 0 0;
+}
+.on-map h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+/*--------------------footer------------------------*/
+.footer{
+    width: 100%;
+    padding: 50px 0;
+}
+.footer .content{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-wrap: wrap;
+  
+}
+.footer .content .logo{
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+  
+}
+.footer .content .tel-add{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+    flex: 2;
+
+
+}
+.footer .content .tel-add .tel span{
+    font-weight: 600;
+}
+ /*--------------------------------------------------*/
+ .map{
+    width: 100%;
+ }
+
+ @media (max-width: 800px){
+    .request .content{
+       
+        margin: auto;
+        
+    }
+   
+    .client .content .client-item{
+        min-width: 300px;
+    }
+    .footer .content .tel-add{
+        
+        margin: 30px 0;
+    
+    }
+ }
+
+ @media (max-width: 1300px){
+   
+    .header{
+        /* position: relative; */
+    }
+    .header-content .icon{
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 40%;
+
+    }
+    .header-content .icon .fas{
+      font-size: 30px;
+    }
+    .header-content .nav {
+        display: none;
+    }
+  
+ }
+
+ @media screen and (max-width: 1300px) {
+  
+
+    /* .header-content{
+        overflow: hidden;
+
+    
+    } */
+    .header-content.responsive .icon {
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 40%;
+       
+    }
+
+    .header-content.responsive .nav{
+        display: block;
+        position: absolute;
+        background: #fff;
+        left: 0;
+        width: 100%;
+        margin-top: 116px;
+        padding: 20px 0;
+        height: 200px;
+        border-top: rgb(201, 198, 198) solid 1px;
+        transition: 0.6s ease-in-out;
+
+    }
+    .header-content.responsive .nav::before{
+        content: "";
+        height: 0;
+        transition: 0.6s ease-in-out;
+    }
+    .header-content.responsive .nav::after{
+        content: "";
+        height: 200px;
+        transition: 0.6s ease-in-out;
+    }
+    .header-content.responsive nav ul{
+      display: flex;
+       flex-direction: column;
+       width: 100%;
+       padding: 20px;
+    }
+    .header-content.responsive nav ul li{
+        padding-left: 10px;
+    }
+    .header-content.responsive nav ul li:hover{
+        transition: 0.6s;
+        background: rgb(162, 209, 209);
+     
+       }
+    .header-content.responsive .nav .add_tel{
+        margin: 30px 100px;
+        width: 100%;
+        flex-wrap: wrap;
+        
+    } 
+ 
+
+  }
